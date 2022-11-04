@@ -4,6 +4,7 @@
 <%@ page import="java.util.*" %>
 <% List<Customer> customer_data = (List<Customer>)request.getAttribute("customer");%>
 
+
 <!DOCTYPE html>
 <html>
 <head>

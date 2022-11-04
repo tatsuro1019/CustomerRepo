@@ -30,6 +30,7 @@ public class SqlDao {
 					+ "WHERE name = ? AND password = ?";
 
 			LoginUser login_user = new LoginUser();
+
 			//ログインユーザの情報をリスト形式で取得する
 			List<LoginUser> user_info = new ArrayList<LoginUser>();
 

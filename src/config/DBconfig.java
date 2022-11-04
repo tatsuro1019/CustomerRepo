@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class DBconfig {
-
 	public String[] getDBinfo(String file_path) throws FileNotFoundException {
 
 		Properties  info = new Properties();
